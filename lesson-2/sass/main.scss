@@ -1,0 +1,29 @@
+$Green: rgb(48, 112, 48);
+
+
+body{
+    background-color: $Green;
+}
+.invisible{
+    display: none;
+}
+.color-btn{
+    background-color: rgb(255, 230, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 15px;
+}
+#stop{
+    background-color: rgb(221, 18, 18);
+    padding: 8px;
+    border: none;
+    border-radius: 5px;cursor: pointer;
+}
+#timerErr{
+    color: rgb(221, 18, 18);
+}
+#datecalc__result{
+    color: rgb(221, 18, 18);
+}
