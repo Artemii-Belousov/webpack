@@ -19,36 +19,6 @@ module.exports = {
           'sass-loader'
         ]
       },
-      // {
-      //     test: /\.(png|jpe?g|gif)$/i,
-      //     use: [
-      //         {
-      //             loader: 'file-loader',
-      //             options: {
-      //                 name: '[name].[ext]',  // Сохраняет исходное назване файла
-      //                 outputPath: './images'  // Указывает путь для экспорта файлов
-      //             }
-      //         }
-      //     ]
-      // },
-
-      // {
-      //     test: /\.(png|jpe?g|gif)$/i,
-      //     use: [
-      //         {
-      //             loader: 'image-optimize-loader',
-      //             options: {
-      //                 compress: {
-      //                     mode: 'high',
-      //                     webp: true,
-      //                     gifsicle: true,
-      //                     disableOnDevelopment: false,
-      //                 }
-      //             }
-      //         }
-
-      //     ]
-      // }
 
       {
         test: /\.(png|jpe?g|webp|git|svg|gif|)$/i,
