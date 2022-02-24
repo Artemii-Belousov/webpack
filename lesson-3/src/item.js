@@ -27,7 +27,6 @@ function drawVideo(item) {
     videoElement.controls = true;
 }
 
-
 export function drawGalleryItem(item){
     const itemElement = document.createElement('div')
     itemElement.classList = 'gallery-item'
