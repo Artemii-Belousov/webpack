@@ -1,0 +1,33 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+
+.main-header{
+    color: rgb(83, 78, 78);
+}
+.gallery-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid;
+    padding: 5px;
+}
+.gallery-item__image {
+    width: 220px;
+    height: 150px;
+}
+.gallery-item__audio{
+    width: 220px;
+    height: 150px;
+}
+.gallery-item__title {
+    text-align: center;
+    color: rgb(83, 78, 78);
+}
